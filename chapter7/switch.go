@@ -5,12 +5,11 @@ import(
 )
 
 func main()  {
+var i=1
+switch i {
+case 0: fmt.Println("Zero")
+case 1: fmt.Println("One")
+default: fmt.Println("Unknown Number")
 
-	var num int
-	fmt.Println("ENter 10 numbers")
-   for i := 0; i < 10; i++ {
-	fmt.Printf("Number %d:",i+1)
-	fmt.Scanln(&num)
-	fmt.Println("You entered",num)
-   }
+}
 }
